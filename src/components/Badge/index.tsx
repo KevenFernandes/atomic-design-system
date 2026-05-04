@@ -102,7 +102,6 @@ interface BadgeProps
     VariantProps<typeof badgeVariant> {
   buttonText?: string;
   icon?: React.ElementType<LucideProps>;
-  isChip?: boolean;
 }
 
 export function Badge({
