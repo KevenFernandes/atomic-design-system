@@ -1,0 +1,25 @@
+[14:58:13.267] [INFO] storybook v10.3.6
+[14:58:15.445] [DEBUG] Getting package.json info for C:/Users/Keven Fernandes/Desktop/design-system/package.json...
+[14:58:27.761] [WARN] 🚨 Unable to index ./src/components/Alert/Alert.stories.ts:
+  SyntaxError: Unexpected token, expected "," (35:4)
+    at constructor (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:12171:21)
+    at Parser.raise (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:16356:71)
+    at Parser.unexpected (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:16373:20)
+    at Parser.expect (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:16581:32)
+    at Parser.parseObjectLike (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:19571:25)
+    at Parser.parseExprAtom (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:19302:25)
+    at Parser.parseExprAtom (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:15093:181)
+    at Parser.parseExprSubscripts (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:19165:105)
+    at Parser.parseUpdate (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:19156:57)
+    at Parser.parseMaybeUnary (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-MKXM7JNE.js:19141:25)
+[14:58:27.767] [ERROR] Error: Unable to index ./src/components/Alert/Alert.stories.ts
+    at _StoryIndexGenerator.getIndexAndStats (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/core-server/index.js:6282:15)
+    at async _StoryIndexGenerator.getIndex (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/core-server/index.js:6271:13)
+    at async Object.experimental_serverChannel (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/@storybook/addon-vitest/dist/preset.js:464:14)
+    at async buildDevStandalone (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/core-server/index.js:8027:32)
+    at async withTelemetry (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/_node-chunks/chunk-UYONHJJP.js:225:12)
+    at async dev (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/bin/core.js:2736:3)
+    at async _Command.<anonymous> (file:///C:/Users/Keven%20Fernandes/Desktop/design-system/node_modules/storybook/dist/bin/core.js:2806:92)
+[14:58:27.768] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[14:58:45.812] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":true}
